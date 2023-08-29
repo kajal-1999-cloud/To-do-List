@@ -3,7 +3,7 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,12 +47,12 @@ body{
     justify-content: center;
     flex-direction: column;
     margin: 50px 400px;
-    min-width: 600px;
-    max-width: 000px;
-    background: rgba(87, 91, 97, 0.15);
-    box-shadow: 0 8px 32px 0 rgba(1, 2, 20, 0.3);
-    backdrop-filter: blur( 3px );
-    -webkit-backdrop-filter: blur( 3px );
+    min-width: 500px;
+    max-width: 2000px;
+    background-color: rgb(200, 207, 212);
+    z-index:1000;
+    box-shadow: 0 8px 32px 0 rgba(80, 81, 100, 0.3);
+    /* backdrop-filter: blur( 3px ); */
     border-radius: 10px;
     border: 1px solid rgba(221, 48, 48, 0.18);
     padding: 20px;
@@ -112,7 +112,6 @@ header .input-section {
     margin-bottom: 10px;
 }
 
-
 .todos-list {
     display: flex;
     flex-direction: column;
@@ -150,7 +149,6 @@ header .input-section {
 .todo-actions button:not(:last-child){
     margin-right: 10px;
 }
-
 
 
 /* Responsive */
